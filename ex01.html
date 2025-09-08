@@ -1,0 +1,175 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="ex01.css" />
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="landing-page-decoration"></div>
+      <input type="radio" name="tab" id="login" checked="" hidden="" />
+      <input type="radio" name="tab" id="register" hidden="" />
+      <div class="landing-page-info">
+        <div class="logo">
+          <div class="logo-line">
+            <img src="images/cH5bpcIc_400x400.png" alt="logo" />
+          </div>
+        </div>
+        <div class="landing-page-name">
+          <h1>VIKINGER</h1>
+          <h2>WELCOME TO</h2>
+        </div>
+        <div class="landing-page-des">
+          <p>The next generation social network &amp; community!</p>
+          <p>
+            Connect with your friends and play with our quests and badges
+            gamification system!
+          </p>
+        </div>
+        <div class="landing-page-auth-toggle">
+          <label for="login" class="login">Login</label>
+          <label for="register" class="register">Register</label>
+        </div>
+      </div>
+      <div class="landing-page-account">
+        <div class="account-login">
+          <div class="page-decorate">
+            <img src="/images/rocket.webp" alt="" />
+          </div>
+          <h2 class="title">Account Login</h2>
+          <div class="form-input">
+            <input
+              type="text"
+              id="input-username-or-email"
+              name="username-or-email"
+              autofocus=""
+            />
+            <label class="username-email" for="input-username-or-email"
+              >Username or Email</label
+            >
+          </div>
+          <div class="form-input">
+            <input type="text" id="input-password" name="password" />
+            <label class="password" for="input-password">Password</label>
+          </div>
+          <div class="form-between-line">
+            <input type="checkbox" id="remember" hidden="" />
+            <label for="remember">Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button class="form-submit">Login to your Account!</button>
+          <div class="lined-text">
+            <p>Login with your Social Account</p>
+            <hr />
+          </div>
+          <div class="social-links">
+            <a class="facebook">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                width="32"
+                height="32"
+                fill="white"
+              >
+                <path
+                  d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L258.2 544L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96z"
+                ></path>
+              </svg>
+            </a>
+            <a class="twitter">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                width="32"
+                height="32"
+                fill="white"
+              >
+                <path
+                  d="M523.4 215.7C523.7 220.2 523.7 224.8 523.7 229.3C523.7 368 418.1 527.9 225.1 527.9C165.6 527.9 110.4 510.7 64 480.8C72.4 481.8 80.6 482.1 89.3 482.1C138.4 482.1 183.5 465.5 219.6 437.3C173.5 436.3 134.8 406.1 121.5 364.5C128 365.5 134.5 366.1 141.3 366.1C150.7 366.1 160.1 364.8 168.9 362.5C120.8 352.8 84.8 310.5 84.8 259.5L84.8 258.2C98.8 266 115 270.9 132.2 271.5C103.9 252.7 85.4 220.5 85.4 184.1C85.4 164.6 90.6 146.7 99.7 131.1C151.4 194.8 229 236.4 316.1 240.9C314.5 233.1 313.5 225 313.5 216.9C313.5 159.1 360.3 112 418.4 112C448.6 112 475.9 124.7 495.1 145.1C518.8 140.6 541.6 131.8 561.7 119.8C553.9 144.2 537.3 164.6 515.6 177.6C536.7 175.3 557.2 169.5 576 161.4C561.7 182.2 543.8 200.7 523.4 215.7z"
+                ></path>
+              </svg>
+            </a>
+            <a class="twitch">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                width="32"
+                height="32"
+                fill="white"
+              >
+                <path
+                  d="M455.4 167.5L416.8 167.5L416.8 277.2L455.4 277.2L455.4 167.5zM349.2 167L310.6 167L310.6 276.8L349.2 276.8L349.2 167zM185 64L88.5 155.4L88.5 484.6L204.3 484.6L204.3 576L300.8 484.6L378.1 484.6L551.9 320L551.9 64L185 64zM513.3 301.8L436.1 374.9L358.9 374.9L291.3 438.9L291.3 374.9L204.4 374.9L204.4 100.6L513.3 100.6L513.3 301.8z"
+                ></path>
+              </svg>
+            </a>
+            <a class="youtube">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                idth="32"
+                height="32"
+                fill="white"
+              >
+                <path
+                  d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="account-register">
+          <div class="page-decorate">
+            <img src="./Images/rocket.webp" alt="" />
+          </div>
+          <h2 class="title">Creat your Account!</h2>
+          <div class="form-input">
+            <input
+              type="text"
+              id="input-your-email"
+              name="your-email"
+              autofocus=""
+            />
+            <label for="input-your-email">Your Email</label>
+          </div>
+          <div class="form-input">
+            <input type="text" id="input-username" name="username" />
+            <label for="input-username">Username</label>
+          </div>
+          <div class="form-input">
+            <input type="text" id="input-password" name="password" />
+            <label for="input-password">Password</label>
+          </div>
+          <div class="form-input">
+            <input
+              type="text"
+              id="input-reapeat-password"
+              name="reapeat-password"
+            />
+            <label for="input-reapeat-password">Repeat Password</label>
+          </div>
+          <div class="form-between-line">
+            <input type="checkbox" id="check" hidden="" />
+            <label for="check">Send me news and updates via email</label>
+          </div>
+          <button class="form-submit">Register Now!</button>
+          <div class="register-des">
+            <p>
+              You'll receive a confirmation email in your inbox with a link to
+              activate your account. If you have any problems,
+              <a href="#">contact us</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
